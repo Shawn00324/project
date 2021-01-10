@@ -8,6 +8,7 @@ public class lotteryTest {
 
 	public static void main(String[] args) {
 		Set num = new HashSet();
+		int o = 0;
 		while (num.size() != 6) {
 			int r = (int)(Math.random()*49) + 1;
 			num.add(r);
