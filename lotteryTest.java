@@ -10,6 +10,7 @@ public class lotteryTest {
 		Set num = new HashSet();
 		int o = 0;
 		String s = "賭博";
+		String a = "爛賭";
 		while (num.size() != 6) {
 			int r = (int)(Math.random()*49) + 1;
 			num.add(r);
